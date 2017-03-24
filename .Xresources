@@ -1,4 +1,8 @@
-/* fonts */
+/* 
+ * URxvt configuration - note that Linux doesn't support emoji so
+ * Noto Color Emoji will always fall back to Symbola until this is 
+ * addressed in both Linux and URxvt
+ */
 URxvt.font:        xft:Hack-Regular:pixelsize=14,xft:Noto Color Emoji,xft:Symbola
 URxvt.boldFont:    xft:Hack-Bold:pixelsize=14:weight=bold,xft:Symbola
 URxvt.italicFont:  xft:Hack-RegularOblique:pixelsize=14:slant=italic,xft:Symbola
@@ -10,3 +14,12 @@ URxvt.transparent: true
 URxvt.shading:     20
 
 URxvt.scrollBar:   false
+
+/* XTerm configuration */
+XTerm*background:black
+XTerm*foreground:white
+XTerm*locale: true
+XTerm*saveLines:1000
+XTerm*renderFont: true
+XTerm*faceName: Hack
+XTerm*faceSize: 11
