@@ -1,0 +1,12 @@
+/* fonts */
+URxvt.font:        xft:Hack-Regular:pixelsize=14,xft:Noto Color Emoji,xft:Symbola
+URxvt.boldFont:    xft:Hack-Bold:pixelsize=14:weight=bold,xft:Symbola
+URxvt.italicFont:  xft:Hack-RegularOblique:pixelsize=14:slant=italic,xft:Symbola
+
+urxvt*background:  black
+urxvt*foreground:  white
+
+URxvt.transparent: true
+URxvt.shading:     20
+
+URxvt.scrollBar:   false
