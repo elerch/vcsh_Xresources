@@ -24,6 +24,8 @@ XTerm*renderFont: true
 XTerm*faceName: Hack
 XTerm*faceSize: 11
 
+Xcursor.size: 16
+
 #include ".Xresources.d/base16theme"
 
 *color00: base00
