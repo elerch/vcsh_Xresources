@@ -7,6 +7,7 @@ URxvt.font:        xft:Hack-Regular:pixelsize=14,xft:Noto Color Emoji,xft:Symbol
 URxvt.boldFont:    xft:Hack-Bold:pixelsize=14:weight=bold,xft:Symbola
 URxvt.italicFont:  xft:Hack-RegularOblique:pixelsize=14:slant=italic,xft:Symbola
 
+
 urxvt*background:  black
 urxvt*foreground:  white
 
@@ -23,6 +24,18 @@ XTerm*saveLines:1000
 XTerm*renderFont: true
 XTerm*faceName: Hack
 XTerm*faceSize: 11
+
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+/* For siduck/st variant of st */
+st.font:           Hack-Regular:pixelsize=15:lcdfilter=lcddefault:rgba=rgb:antialias=true:autohint=false,Noto Color Emoji:antialias=true:autohint=true,Symbola:antialias=true:autohint=true
+st.alpha:          0.9
+st.background:     black
 
 Xcursor.size: 16
 
